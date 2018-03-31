@@ -24,10 +24,10 @@ class employee implements Comparable<employee>{
 public static void main(String args[])
 {
 	ArrayList<employee> al=new ArrayList<employee>();
-	al.add(new employee("Abhishek",1000000,21));
-	al.add(new employee("avishkar",500000,23));
-	al.add(new employee("pata nahi kaun",100,54));
-al.add(new employee("pata nahi yeh doosra kaun kaun",10000,54));
+	al.add(new employee("Aron",1000000,21));
+	al.add(new employee("Alex",500000,23));
+	al.add(new employee("Steven",100,54));
+al.add(new employee("Mark",10000,54));
 	    Collections.sort(al);
 
 	for(employee x1:al)
